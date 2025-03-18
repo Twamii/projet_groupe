@@ -10,8 +10,8 @@ function Tarif() {
   return (
     <Container>
       <Row>
-        <Col xs={12} sm={12} md={4} lg={3} className="text-center">
-          <Card className="border-primary border-3 colorcard">
+        <Col xs={12} sm={12} md={4} className="text-center">
+          <Card className="border-primary border-3 mt-3 colorcard">
             <Card.Body>
               <Card.Title>Cours à l'unité</Card.Title>
               <Card.Subtitle className="mb-2 py-3 prix">
@@ -32,7 +32,7 @@ function Tarif() {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} sm={12} md={4} lg={3} className="text-center ms-auto">
+        <Col xs={12} sm={12} md={4} className="text-center ms-auto">
           <Card className="border-primary border-3 mt-3 colorcard">
             <Card.Body>
               <Card.Title>Forfait 5 leçons</Card.Title>
@@ -54,7 +54,7 @@ function Tarif() {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} sm={12} md={4} lg={3} className="text-center ms-auto">
+        <Col xs={12} sm={12} md={4}  className="text-center ms-auto">
           <Card className="border-primary border-3 mt-3 colorcard">
             <Card.Body>
               <Card.Title>Forfait 10 leçons</Card.Title>
