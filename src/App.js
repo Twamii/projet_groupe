@@ -5,11 +5,11 @@ import NavScrollExample from './composants/navbar'
 import ResponsiveExample from './accueil/responsive';
 import Presentations from './presentation/Presentation';
 import Cours from './cours/Cours';
-import Titletarif from './Tarification/titletarif';
 import Tarif from './Tarification/tarification';
 import Divider from './divider';
-import Testimoney from './testimoney/Testimoney';
 import Contact from './Contact/contact';
+import Avis from './avis/avis';
+import Calendar from './Calendar/calendar';
 
 
 function App() {
@@ -22,12 +22,13 @@ function App() {
       <Divider />
       <Cours />
       <Divider />
-      <Titletarif />
       <Tarif />
       <Divider />
-      <Testimoney />
+      <Avis />
       <Divider />
       <Contact />
+      <Divider />
+      <Calendar />
 
     </div>
   );
