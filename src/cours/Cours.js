@@ -36,7 +36,7 @@ function Cours() {
   ];
 
   return (
-    <Container className="py-5" id="action3">
+    <Container className="py-5" id="cours">
       <Row>
         <Col className="text-center ms-auto">
           <h2 className="titlecours">

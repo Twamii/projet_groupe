@@ -1,12 +1,9 @@
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import MonAccueil from "../images/accueil.jpg";
-import Image from 'react-bootstrap/Image';
+import { Container, Row, Col, Image } from "react-bootstrap";
 
-function ResponsiveExample() {
+function HomePage() {
   return (
-    <Container>
+    <Container id="home">
       <Row>
         <Col xs={12} sm={12} md={6} lg={6} className="py-3 text-center">
           <h1 id="action1"><b>Apprenez le français en ligne, facilement et efficacement</b></h1>
@@ -17,8 +14,10 @@ function ResponsiveExample() {
             professeure expérimentée !
           </p>
           <div className="a text-center">
-            <button className="b mx-auto me-4">Réserve un cours !</button>
-            <button className="b mx-auto"><a href="#action6">Contactez-moi !</a></button>
+          
+            <button className="b mx-auto me-4" onClick={() =>
+              window.open(`${window.location.origin}/calendar`, '_blank')}>Réserve un cours !</button>
+            <button className="b mx-auto"><a href="#contact">Contactez-moi !</a></button>
           </div>
         </Col>
         <Col xs={12} sm={12} md={6} lg={6}>
@@ -29,4 +28,4 @@ function ResponsiveExample() {
   );
 }
 
-export default ResponsiveExample;
+export default HomePage;

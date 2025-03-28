@@ -1,15 +1,10 @@
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-import ListGroup from "react-bootstrap/ListGroup";
+import { Container, Row, Col, Button, Card, ListGroup } from "react-bootstrap";
 
 function Tarif() {
   return (
-    <Container id="action4">
+    <Container id="tarification">
       <Row className="text-center">
-        <h2 >
+        <h2>
           <b>Tarification</b>
         </h2>
         <p className="py-3">
@@ -40,7 +35,14 @@ function Tarif() {
                   Vestibulum at eros
                 </ListGroup.Item>
               </ListGroup>
-              <Button className="py-2 mt-4">Réserver</Button>
+              <Button
+                className="py-2 mt-4"
+                onClick={() =>
+                  window.open(`${window.location.origin}/calendar`, "_blank")
+                }
+              >
+                Réserver
+              </Button>
             </Card.Body>
           </Card>
         </Col>
@@ -64,7 +66,14 @@ function Tarif() {
                   Vestibulum at eros
                 </ListGroup.Item>
               </ListGroup>
-              <Button className="py-2 mt-4">Réserver</Button>
+              <Button
+                className="py-2 mt-4"
+                onClick={() =>
+                  window.open(`${window.location.origin}/calendar`, "_blank")
+                }
+              >
+                Réserver
+              </Button>
             </Card.Body>
           </Card>
         </Col>
@@ -86,7 +95,14 @@ function Tarif() {
                 <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
                 <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
               </ListGroup>
-              <Button className="py-2 mt-4">Réserver</Button>
+              <Button
+                className="py-2 mt-4"
+                onClick={() =>
+                  window.open(`${window.location.origin}/calendar`, "_blank")
+                }
+              >
+                Réserver
+              </Button>
             </Card.Body>
           </Card>
         </Col>

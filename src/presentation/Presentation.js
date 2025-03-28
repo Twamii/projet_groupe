@@ -1,12 +1,9 @@
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import MaPresentation from "../images/presentation.png";
-import Image from "react-bootstrap/Image";
 
 function Presentations() {
   return (
-    <Container className="py-5" id="action2">
+    <Container className="py-5" id="presentation">
       <Row>
         <Col xs={12} sm={12} md={6} lg={6} className="text-center ms-auto">
           <h2>

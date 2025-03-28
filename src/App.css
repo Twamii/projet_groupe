@@ -127,5 +127,3 @@ a {
 .titrecontact {
     font-size: 32px !important;
 }
-
-@import 'react-datepicker/dist/react-datepicker-cssmodules.css';
